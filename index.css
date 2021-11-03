@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #eff4fd;
+}
+
+nav{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+hr.vertical {
+  border: 0;
+  margin: 0; 
+  border-left: 2px solid blue;
+  height: 120px;
+  float: right; 
+}
+
+.logo{
+	height: 100px;
+	cursor: pointer;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+	/*border-radius: 3px;*/
+}
+nav ul li a{
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: monospace;
+}
+nav ul li a:hover{
+	background: blue;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: monospace;
+}
+.detel{
+	margin-left: 8%;
+	margin-top: 6%;
+}
+.detel h1{
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+span{
+	color: blue;
+}
+.detel p{
+	color: #555;
+	line-height: 22px;
+}
+.detel a{
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+	margin-top: 4%;
+	margin-left: 8%
+
+}
+.images{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 10%;
+	right: 100px;
+}
+.pic{
+	border-radius: 50%;
+}
+.images img{
+	height: 90%;
+	position: absolute;
+	left: 60%;
+	bottom: 0;
+	transform: translateX(-40%);
+	transition: bottom 1s, left 1s;
+}
+
+.images:hover .pic{
+	left: 25%;
+	cursor: pointer;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100vw;
+	font-family: "Open Sans";
+	padding-top: 0px;
+	color: #fff;
+}
+
+.footer-bottom{
+	background: rgba(0, 100, 0);
+	width: 100vw;
+	padding: 10px 0;
+	text-align: center;
+}
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+.footer-bottom b{
+	text-transform: uppercase;
+	opacity: .6;
+	color: yellow;
+	cursor: pointer;
+	font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
